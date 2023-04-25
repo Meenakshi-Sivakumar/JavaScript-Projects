@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>myVar</title>
+    <link rel="stylesheet" href="styles.css">
+    
+</head>
+<body>
+    <h1>Play with CSS variables using <span>JS</span></h1>
+    <div id="flex">
+        <div class="controlers" id="main-div">
+            <div id="spacing-div">
+                <label for="spacing">Spacing: </label>
+            <input type="range" id="spacing" name='spacing' value="10" min="10" max="200" data-sizing="px">
+            </div>
+            
+            <div id="spacing-div">
+                <label for="blur">Blur: </label>
+            <input type="range" id="blur" name="blur" value="0" min="0" max="7" data-sizing="px">
+            </div>
+            
+            <div id="spacing-div">
+                <label for="color">Base-Color: </label>
+            <input type="color" name="color" value="#ffff00" placeholder="" id="color">
+            </div>
+        </div>
+
+        <img src="img/charlesdeluvio-K4mSJ7kc0As-unsplash.jpg" alt="dog">
+    </div>
+    <script src="scripts.js"></script>
+</body>
+</html>

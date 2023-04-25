@@ -1,0 +1,49 @@
+:root {
+    --spacing: 10px;
+    --blur: 1px;
+    --color: #d0a538c8;
+}
+
+body{
+    background-color:rgb(45, 45, 100) !important;
+}
+
+img{
+    background-color: var(--color);
+    margin: 0 auto;
+    padding: var(--spacing);
+    width: 25vw;
+    filter: blur(var(--blur));
+}
+
+label{
+    font-size: 24px;
+    font-weight: 600;
+    color: rgb(245, 245, 245);
+}
+
+#flex{
+    display: flex;
+    text-align: left;
+}
+
+span{
+    color: var(--color)
+}
+
+h1{
+    font-size: 46px !important;
+    font-weight: bolder !important;
+    text-align: center ;
+    color: whitesmoke !important;
+    margin-bottom: 40px !important;
+}
+
+.controlers{
+    margin-top: 200px; 
+    margin-left: 120px;
+}
+
+.controlers div{
+    padding-bottom: 50px;
+}

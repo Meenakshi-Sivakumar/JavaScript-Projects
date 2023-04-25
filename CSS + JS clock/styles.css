@@ -1,0 +1,33 @@
+body{
+    background-image: url(/Image/roland-larsson-m2De0QR_tWo-unsplash.jpg);
+    background-size: 100vw;
+}
+#clock-frame{
+    margin: auto;
+    margin-top: 10vw;
+    width: 20%;
+    height: 40%;
+    border: 10px double rgba(12, 12, 12, 0.8);
+    border-radius: 50%;
+    position: relative;
+}
+#dot{
+    width: 5px;
+    height: 5px;
+    background-color: rgba(12, 12, 12, 0.9);
+    border-radius: 50%;
+    position: absolute;
+    top: 49.5%;
+    right: 50%;
+}
+.hands{
+    position: absolute;
+    width: 49%;
+    height: 2px;
+    background-color: rgba(41, 39, 39, 1);
+    top: 50%;
+    transform-origin: 100%;
+    transform: rotate(90deg);
+    transition: transform 0.05s;
+    transition-timing-function: cubic-bezier(0.42, 0, 0.79, 1.76);
+}
