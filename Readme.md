@@ -12,3 +12,6 @@ This is a series of self-improvement projects. For 30 days in a row. Inspired by
 
 ✔ Project4: Array Cardio Day1 , lets get familiar with the javascript functions like map, filter, reduce and sort.
 
+✔ Project5: Flex Panels Image Gallery, An aesthetic window with simple and eye catchy animation.
+
+✔ Project6: Search bar-type Ahead, A search bar with type ahead feature which induces interactive searching.
