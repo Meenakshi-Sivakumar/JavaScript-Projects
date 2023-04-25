@@ -32,7 +32,17 @@ function displayMatches() {
         </li>
         `;
     }).join('')
-    suggestions.innerHTML = html;
+
+    if(this.value==''){
+        suggestions.innerHTML = `<li>Filter For A City</li><li>or A State</li>`
+    }else{
+        suggestions.innerHTML = html;
+    }
+    if(!html){
+        const pTag = document.createElement('p')
+        pTag.innerHTML = 'SEARCH NOT FOUND...';
+        suggestions.append(pTag)
+    }
 }
 
 const searchInput = document.querySelector('.search');
