@@ -11,3 +11,4 @@ This is a series of self-improvement projects. For 30 days in a row. Inspired by
 ✔ Project3: A playground t play around with CSS variable intraction using javascript and learning about their behavior.
 
 ✔ Project4: Array Cardio Day1 , lets get familiar with the javascript functions like map, filter, reduce and sort.
+
