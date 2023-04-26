@@ -4,9 +4,9 @@ body{
     color: #E7BB41;
     font-size: 300%;
     width: 99vw;
-    height: 45vw;
+    height: 97vh;
     display: flex;
-    
+    overflow: hidden;
 }
 
 div{
@@ -14,4 +14,5 @@ div{
     align-items:center;
     justify-content: center;
     width: inherit;
+    height: inherit;
 }
