@@ -1,0 +1,17 @@
+body{
+    box-sizing: border-box;
+    background-color: #393E41;
+    color: #E7BB41;
+    font-size: 300%;
+    width: 99vw;
+    height: 45vw;
+    display: flex;
+    
+}
+
+div{
+    display: flex;
+    align-items:center;
+    justify-content: center;
+    width: inherit;
+}
