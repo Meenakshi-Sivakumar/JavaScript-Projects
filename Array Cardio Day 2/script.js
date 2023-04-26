@@ -29,9 +29,12 @@ const people = [
     return age>18;
   })
   // Array.prototype.find()
-  // Find is like filter, but instead returns just the one you are looking for
   // find the comment with the ID of 823423
+  const comment = comments.find(e => e.id === 823423).text;
 
   // Array.prototype.findIndex()
   // Find the comment with this ID
   // delete the comment with the ID of 823423
+  const commentIndex = comments.findIndex(e => e.id === 823423);
+  comments.splice(commentIndex,1);
+  console.log(comments);
