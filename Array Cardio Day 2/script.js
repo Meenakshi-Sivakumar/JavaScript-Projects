@@ -24,8 +24,10 @@ const people = [
     return age>18;
   })
   
-
-
+  const EveryOneLegalAge = people.every(person => {
+    const age = year-person.year;
+    return age>18;
+  })
   // Array.prototype.find()
   // Find is like filter, but instead returns just the one you are looking for
   // find the comment with the ID of 823423
