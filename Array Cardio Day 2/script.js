@@ -18,6 +18,13 @@ const people = [
   // Some and Every Checks
   // Array.prototype.some() // is at least one person 19 or older?
   // Array.prototype.every() // is everyone 19 or older?
+  const year = new Date().getFullYear();
+  const atleastOneLegalAge = people.some(person => {
+    const age = year-person.year;
+    return age>18;
+  })
+  
+
 
   // Array.prototype.find()
   // Find is like filter, but instead returns just the one you are looking for
